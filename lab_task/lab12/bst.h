@@ -34,7 +34,7 @@ public:
 			head->right = head->left = temp;
 			temp->parent = head;
 		}
-		else
+		else{
 			node<T>* temp;
 		temp = new node<T>;
 		temp->val = val;
@@ -69,6 +69,7 @@ public:
 					return;
 				}
 			}
+		}
 		}
 		
 
